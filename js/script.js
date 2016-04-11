@@ -26,7 +26,7 @@ var Quotes = [
   },
 
   {
-    quote: "You only thing against fear is fear itself.",
+    quote: "Hello.",
     source: "Anonymous",
     citation: "1997"
   }
@@ -37,9 +37,9 @@ var Quotes = [
 // function which get a random quote and then returns the randomly selected quote
 
 function getRandomQuote() {
-  var randomNumber = Math.floor(Math.random() * 6) + 1;
+  var randomNumber = Math.floor(Math.random() * 6);
   for (var i = 0; i < Quotes.length; i++) {
-    document.write((Quotes[randomNumber].Quotes));
+    document.write((Quotes[randomNumber].quote));
   }
 
 }
