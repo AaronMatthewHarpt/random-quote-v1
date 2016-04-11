@@ -39,7 +39,7 @@ var Quotes = [
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
   for (var i = 0; i < Quotes.length; i++) {
-    document.write((Quotes[randomNumber].quote));
+    document.write((Quotes[randomNumber].Quotes));
   }
 
 }
