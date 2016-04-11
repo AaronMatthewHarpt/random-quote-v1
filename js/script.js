@@ -1,31 +1,31 @@
 // array containing quote objects
 var Quotes = [
 
-  quote1 = {
+  {
    quote: "You only thing against fear is fear itself.",
    source: "Anonymous",
    citation: "1997"
  },
 
-  quote2 = {
+   {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  quote3 = {
+  {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  quote4 = {
+  {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  quote5 = {
+  {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
