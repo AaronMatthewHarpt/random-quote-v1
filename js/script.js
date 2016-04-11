@@ -1,4 +1,4 @@
-// array containing quotes
+// array containing quote objects
 var Quotes = [
 
   quote1 = {
@@ -40,7 +40,7 @@ for (var i = 0; i < Quotes.length; i ++) {
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
-  return (Quotes[randomNumber]);
+  document.write((Quotes[randomNumber]));
 }
 getRandomQuote();
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
