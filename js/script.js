@@ -1,26 +1,31 @@
 // array containing quotes
 var Quotes = [
-  var quote1 {
-  quote: "You only thing against fear is fear itself.",
-  source: "Anonymous",
-  citation: "1997",
-};
-  var quote2 {
+
+  quote1 {
+   quote: "You only thing against fear is fear itself.",
+   source: "Anonymous",
+   citation: "1997",
+  };
+  
+  quote2 {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997",
   };
-  var quote3 {
-  quote: "You only thing against fear is fear itself.",
-  source: "Anonymous",
-  citation: "1997",
-};
-  var quote4 {
+
+  quote3 {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997",
   };
-  var quote5 {
+
+  quote4 {
+    quote: "You only thing against fear is fear itself.",
+    source: "Anonymous",
+    citation: "1997",
+  };
+
+  quote5 {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997",
@@ -35,7 +40,7 @@ for (var i = 0; i < Quotes.length; i ++) {
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
-  return (Quotes[randomNumber]);
+  document.write((Quotes[randomNumber]));
 }
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
  source(if necessary), and citation(if necessary) to the web page
