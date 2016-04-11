@@ -40,7 +40,7 @@ for (var i = 0; i < Quotes.length; i ++) {
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
-  document.write((Quotes[randomNumber]));
+  return (Quotes[randomNumber]);
 }
 getRandomQuote();
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
