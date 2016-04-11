@@ -32,7 +32,7 @@ var Quotes = [
   }
 ];
 
-for (var i = 0; i < Quotes.length; i ++) {
+for (var key in Quotes) {
   console.log()
 }
 
