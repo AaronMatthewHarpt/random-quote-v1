@@ -1,21 +1,31 @@
 // array containing quotes
-var Quotes = {
-  quote1: "You only thing against fear is fear itself.",
-  source1: "Anonymous",
-  citation1: "1997",
-  quote2: "You only thing against fear is fear itself.",
-  source2: "Anonymous",
-  citation2: "1997",
-  quote3: "You only thing against fear is fear itself.",
-  source3: "Anonymous",
-  citation3: "1997",
-  quote4: "You only thing against fear is fear itself.",
-  source4: "Anonymous",
-  citation4: "1997",
-  quote5: "You only thing against fear is fear itself.",
-  source5: "Anonymous",
-  citation5: "1997"
+var Quotes = [
+  var quote1 {
+  quote: "You only thing against fear is fear itself.",
+  source: "Anonymous",
+  citation: "1997",
 };
+  var quote2 {
+    quote: "You only thing against fear is fear itself.",
+    source: "Anonymous",
+    citation: "1997",
+  };
+  var quote3 {
+  quote: "You only thing against fear is fear itself.",
+  source: "Anonymous",
+  citation: "1997",
+};
+  var quote4 {
+    quote: "You only thing against fear is fear itself.",
+    source: "Anonymous",
+    citation: "1997",
+  };
+  var quote5 {
+    quote: "You only thing against fear is fear itself.",
+    source: "Anonymous",
+    citation: "1997",
+  };
+]
 
 for (var i = 0; i < Quotes.length; i ++) {
   console.log()
