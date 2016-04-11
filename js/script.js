@@ -32,15 +32,16 @@ var Quotes = [
   }
 ];
 
-for (var key in Quotes) {
-  console.log()
-}
+
 
 // function which get a random quote and then returns the randomly selected quote
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
-  document.write((Quotes[randomNumber]));
+  for (var i = 0; i < Quotes.length; i++) {
+    document.write((Quotes[randomNumber].quote));
+  }
+
 }
 getRandomQuote();
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
