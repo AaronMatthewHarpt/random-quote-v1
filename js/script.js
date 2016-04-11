@@ -1,31 +1,31 @@
 // array containing quote objects
 var Quotes = [
 
-  {
+  quote1 = {
    quote: "You only thing against fear is fear itself.",
    source: "Anonymous",
    citation: "1997"
  },
 
-   {
+  quote2 = {
     quote: "You only thing against fear is fear Hello.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  {
+  quote3 = {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  {
+  quote4 = {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "1997"
   },
 
-  {
+  quote5 = {
     quote: "Hello.",
     source: "Anonymous",
     citation: "1997"
@@ -42,10 +42,9 @@ function getRandomQuote() {
   //   var randomQuote = (Quotes[randomNumber].quote);
   //   document.write(randomQuote);
   // }
-var randomNumber = Math.floor(Math.random() * 6);
+var randomNumber = Math.floor(Math.random() * 6) + 1;
   for (var i = 0; i < Quotes.length; i += 1) {
-    var randomQuote = Quotes[randomNumber].quote;
-    document.write(randomQuote);
+    var returnQuote = return Quotes[randomNumber];
   }
 
 }
