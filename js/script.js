@@ -42,9 +42,10 @@ function getRandomQuote() {
   //   var randomQuote = (Quotes[randomNumber].quote);
   //   document.write(randomQuote);
   // }
-var randomNumber = Math.floor(Math.random() * 6);
+var randomNumber = Math.floor(Math.random() * Quotes.length);
+
   for (var i = 0; i < Quotes.length; i += 1) {
-    var returnQuote = return Quotes[randomNumber];
+    return Quotes[randomNumber];
   }
 
 }
