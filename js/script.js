@@ -37,13 +37,13 @@ var Quotes = [
 // function which get a random quote and then returns the randomly selected quote
 
 function getRandomQuote() {
-  var randomNumber = Math.floor(Math.random() * 6);
+
   // for (var i = 0; i < Quotes.length; i += 1) {
   //   var randomQuote = (Quotes[randomNumber].quote);
   //   document.write(randomQuote);
   // }
-
-  for (var key in Quotes) {
+var randomNumber = Math.floor(Math.random() * 6);
+  for (var i = 0; i < Quotes.length; i += 1) {
     var randomQuote = Quotes[randomNumber].quote;
     document.write(randomQuote);
   }
