@@ -8,7 +8,7 @@ var Quotes = [
  },
 
    {
-    quote: "You only thing against fear is fear itself.",
+    quote: "You only thing against fear is fear Hello.",
     source: "Anonymous",
     citation: "1997"
   },
@@ -38,8 +38,14 @@ var Quotes = [
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6);
-  for (var i = 0; i < Quotes.length; i++) {
-    document.write((Quotes[randomNumber].quote));
+  // for (var i = 0; i < Quotes.length; i += 1) {
+  //   var randomQuote = (Quotes[randomNumber].quote);
+  //   document.write(randomQuote);
+  // }
+
+  for (var key in Quotes) {
+    var randomQuote = Quotes[randomNumber].quote;
+    document.write(randomQuote);
   }
 
 }
