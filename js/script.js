@@ -25,9 +25,15 @@ for (var i = 0; i < Quotes.length; i ++) {
 
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * 6) + 1;
-  document.write((Quotes[randomNumber]));
+  return (Quotes[randomNumber]);
 }
+/* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
+ source(if necessary), and citation(if necessary) to the web page
+*/
+
+function printQuote() {
 getRandomQuote();
+}
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
