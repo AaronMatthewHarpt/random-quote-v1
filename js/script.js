@@ -6,7 +6,7 @@ var Quotes = [
    source: "Anonymous",
    citation: "1997",
   };
-  
+
   quote2 {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
@@ -30,7 +30,7 @@ var Quotes = [
     source: "Anonymous",
     citation: "1997",
   };
-]
+];
 
 for (var i = 0; i < Quotes.length; i ++) {
   console.log()
@@ -47,7 +47,7 @@ function getRandomQuote() {
 */
 
 function printQuote() {
-getRandomQuote();
+  getRandomQuote();
 }
 
 // event listener to respond to clicks on the page
