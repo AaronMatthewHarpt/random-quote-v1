@@ -71,8 +71,9 @@ function printQuote() {
   } else {
   }
   // document.write(message);
+  document.getElementById('quote-box').innerHTML;
 }
-document.getElementById('quote-box').innerHTML;
+
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
