@@ -63,17 +63,16 @@ function printQuote() {
   var message = '<p class ="quote">' + randomQuote.quote + '</p>';
   message += '<p class ="source">' + randomQuote.source + '</p>';
   if (randomQuote.citation === "") {
+    message += '<span class ="citation">' + randomQuote.citation + '</span>';
   } else {
-  message += '<span class ="citation">' + randomQuote.citation + '</span>';
   }
   if (randomQuote.year === "") {
-
+      message += '<span class ="year">' + randomQuote.year + '</span>';
   } else {
-  message += '<span class ="year">' + randomQuote.year + '</span>';
   }
-  document.write(message);
+  // document.write(message);
 }
-printQuote();
+document.getElementById('quote-box').innerHTML;
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
