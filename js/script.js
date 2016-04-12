@@ -55,7 +55,7 @@ getRandomQuote();
 */
 
 function printQuote() {
-  getRandomQuote();
+  var randomQuote = getRandomQuote();
 }
 
 // event listener to respond to clicks on the page
