@@ -32,8 +32,7 @@ var Quotes = [
   quote5 = {
     quote: "Hello.",
     source: "Anonymous",
-    citation: "Famous quotes",
-    year: 1997
+    citation: "Famous quotes"
   }
 ];
 
@@ -63,8 +62,15 @@ function printQuote() {
   var randomQuote = getRandomQuote();
   var message = '<p class ="quote">' + randomQuote.quote + '</p>';
   message += '<p class ="source">' + randomQuote.source + '</p>';
+  if (randomQuote.citation === "") {
+  } else {
   message += '<span class ="citation">' + randomQuote.citation + '</span>';
+  }
+  if (randomQuote.year === "") {
+
+  } else {
   message += '<span class ="year">' + randomQuote.year + '</span>';
+  }
   document.write(message);
 }
 printQuote();
