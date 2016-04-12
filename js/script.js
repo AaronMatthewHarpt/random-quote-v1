@@ -56,7 +56,10 @@ getRandomQuote();
 
 function printQuote() {
   var randomQuote = getRandomQuote();
+  var message = '<p class="quote">' + randomQuote.quote + '</p>';
+  document.write(message);
 }
+printQuote();
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
