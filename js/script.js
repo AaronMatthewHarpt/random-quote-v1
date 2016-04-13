@@ -71,7 +71,7 @@ function printQuote() {
   }
   if (! randomQuote.year) {
   } else {
-    message += '<span class ="year">' + randomQuote.year + '</span></p>';
+    message += '<span class ="year">' + randomQuote.year + '</span>';
   }
   // document.write(message);
 
