@@ -1,35 +1,35 @@
 // array containing quote objects
 var Quotes = [
 
-  quote1 = {
+  {
    quote: "You only thing against fear is fear itself.",
    source: "Anonymous",
    citation: "Famous quotes",
    year: 1997
  },
 
-  quote2 = {
+  {
     quote: "You only thing against fear is fear Hello.",
     source: "Anonymous",
     citation: "Famous quotes",
     year: 1997
   },
 
-  quote3 = {
+  {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "Famous quotes",
     year: 1997
   },
 
-  quote4 = {
+  {
     quote: "You only thing against fear is fear itself.",
     source: "Anonymous",
     citation: "Famous quotes",
     year: 1997
   },
 
-  quote5 = {
+  {
     quote: "Hello.",
     source: "Anonymous",
     citation: "Famous quotes"
@@ -65,16 +65,16 @@ function printQuote() {
   var randomQuote = getRandomQuote();
   var message = '<p class ="quote">' + randomQuote.quote + '</p>';
   message += '<p class ="source">' + randomQuote.source + '</p>';
-  if (randomQuote.citation === "") {
+  if (! randomQuote.citation) {
+  } else {
     message += '<span class ="citation">' + randomQuote.citation + '</span>';
-  } else {
   }
-  if (randomQuote.year === "") {
-      message += '<span class ="year">' + randomQuote.year + '</span>';
+  if (! randomQuote.year) {
   } else {
+    message += '<span class ="year">' + randomQuote.year + '</span>';
   }
   // document.write(message);
-  
+
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 }
