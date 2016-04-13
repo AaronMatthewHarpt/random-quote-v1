@@ -71,7 +71,7 @@ function printQuote() {
   } else {
   }
   // document.write(message);
-  document.getElementById('quote-box').innerHTML;
+  document.getElementById('quote-box').innerHTML = message;
 }
 
 
