@@ -38,7 +38,9 @@ var Quotes = [
 
 
 
-// function which get a random quote and then returns the randomly selected quote
+/* function which creates a random number between 0 and the length of the Quotes array
+   get a random quote and then returns the randomly selected quote
+*/
 
 function getRandomQuote() {
 
@@ -51,11 +53,12 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
   for (var i = 0; i < Quotes.length; i += 1) {
     return Quotes[randomNumber];
   }
-
 }
-getRandomQuote();
+
+// getRandomQuote();
+
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
- source(if necessary), and citation(if necessary) to the web page
+ source, and citation (if necessary), and year (if necessary) to the web page
 */
 
 function printQuote() {
@@ -71,6 +74,8 @@ function printQuote() {
   } else {
   }
   // document.write(message);
+  
+  // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 }
 
