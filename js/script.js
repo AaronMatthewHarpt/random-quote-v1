@@ -64,14 +64,14 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
 function printQuote() {
   var randomQuote = getRandomQuote();
   var message = '<p class ="quote">' + randomQuote.quote + '</p>';
-  message += '<p class ="source">' + randomQuote.source + '</p>';
+  message += '<p class ="source">' + randomQuote.source;
   if (! randomQuote.citation) {
   } else {
     message += '<span class ="citation">' + randomQuote.citation + '</span>';
   }
   if (! randomQuote.year) {
   } else {
-    message += '<span class ="year">' + randomQuote.year + '</span>';
+    message += '<span class ="year">' + randomQuote.year + '</span></p>';
   }
   // document.write(message);
 
