@@ -3,34 +3,38 @@
 var Quotes = [
 
   {
-   quote: "The more I study nature, the more I stand amazed at the work of the Creator.",
-   source: "Louis Pasteur",
-   citation: "Louis Pasteur-Founder of Modern Medicine, pg. 75",
-   tags: "Science"
+   quote: "Giving is true having.",
+   source: "Charles Spurgeon",
+   citation: "http://www.brainyquote.com/",
+   tags: "Giving, True"
  },
 
   {
-    quote: "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.",
+    quote: "We are all at times unconscious prophets.",
     source: "Charles Spurgeon",
-    tags: "Religion"
+    citation: "http://www.brainyquote.com/",
+    tags: "Prophets"
   },
 
   {
-    quote: "It takes a great man to give sound advice tactfully, but a greater to accept it graciously.",
-    source: "Logan Pearsall Smith",
-    tags: "Accepting Advice"
+    quote: "Of two evils, choose neither.",
+    source: "Charles Spurgeon",
+    citation: "brainyquote.com.",
+    tags: "Choose, Evils, Neither"
   },
 
   {
-    quote: "It is not how much we have, but how much we enjoy, that makes happiness.",
-    source: "Charles Spurgeon",
-    tags: "Happiness"
+    quote: "Fortune favors the prepared mind.",
+    source: "Louis Pasteur",
+    citation: "brainyquote.com.",
+    tags: "Brainy, Prepared"
   },
 
   {
-    quote: "A lie can travel half way around the world while the truth is putting on its shoes.",
-    source: "Charles Spurgeon",
-    tags: "Religion"
+    quote: "Prayer is where the action is.",
+    source: "John Wesly",
+    citation: "brainyquote.com.",
+    tags: "Prayer, Action"
   }
 ];
 
