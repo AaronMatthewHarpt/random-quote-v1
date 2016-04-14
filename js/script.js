@@ -5,35 +5,35 @@ var Quotes = [
   {
    quote: "Giving is true having.",
    source: "Charles Spurgeon",
-   citation: "http://www.brainyquote.com/",
+   citation: "brainyquote.com",
    tags: "Giving, True"
  },
 
   {
     quote: "We are all at times unconscious prophets.",
     source: "Charles Spurgeon",
-    citation: "http://www.brainyquote.com/",
+    citation: "brainyquote.com",
     tags: "Prophets"
   },
 
   {
     quote: "Of two evils, choose neither.",
     source: "Charles Spurgeon",
-    citation: "brainyquote.com.",
+    citation: "brainyquote.com",
     tags: "Choose, Evils, Neither"
   },
 
   {
     quote: "Fortune favors the prepared mind.",
     source: "Louis Pasteur",
-    citation: "brainyquote.com.",
+    citation: "brainyquote.com",
     tags: "Brainy, Prepared"
   },
 
   {
     quote: "Prayer is where the action is.",
     source: "John Wesly",
-    citation: "brainyquote.com.",
+    citation: "brainyquote.com",
     tags: "Prayer, Action"
   }
 ];
