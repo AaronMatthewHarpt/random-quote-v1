@@ -2,37 +2,29 @@
 var Quotes = [
 
   {
-   quote: "You only thing against fear is fear itself.",
-   source: "Anonymous",
-   citation: "Famous quotes",
-   year: 1997
+   quote: "The more I study nature, the more I stand amazed at the work of the Creator.",
+   source: "Louis Pasteur",
+   citation: "Louis Pasteur-Founder of Modern Medicine, pg. 75"
  },
 
   {
-    quote: "You only thing against fear is fear Hello.",
-    source: "Anonymous",
-    citation: "Famous quotes",
-    year: 1997
+    quote: "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.",
+    source: "Charles Spurgeon"
   },
 
   {
-    quote: "You only thing against fear is fear itself.",
-    source: "Anonymous",
-    citation: "Famous quotes",
-    year: 1997
+    quote: "It takes a great man to give sound advice tactfully, but a greater to accept it graciously.",
+    source: "Logan Pearsall Smith"
   },
 
   {
-    quote: "You only thing against fear is fear itself.",
-    source: "Anonymous",
-    citation: "Famous quotes",
-    year: 1997
+    quote: "It is not how much we have, but how much we enjoy, that makes happiness.",
+    source: "Charles Spurgeon"
   },
 
   {
-    quote: "Hello.",
-    source: "Anonymous",
-    citation: "Famous quotes"
+    quote: "A lie can travel half way around the world while the truth is putting on its shoes.",
+    source: "Charles Spurgeon"
   }
 ];
 
