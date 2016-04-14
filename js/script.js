@@ -1,30 +1,36 @@
 // array containing quote objects
+
 var Quotes = [
 
   {
    quote: "The more I study nature, the more I stand amazed at the work of the Creator.",
    source: "Louis Pasteur",
-   citation: "Louis Pasteur-Founder of Modern Medicine, pg. 75"
+   citation: "Louis Pasteur-Founder of Modern Medicine, pg. 75",
+   tags: "Science"
  },
 
   {
     quote: "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.",
-    source: "Charles Spurgeon"
+    source: "Charles Spurgeon",
+    tags: "Religion"
   },
 
   {
     quote: "It takes a great man to give sound advice tactfully, but a greater to accept it graciously.",
-    source: "Logan Pearsall Smith"
+    source: "Logan Pearsall Smith",
+    tags: "Accepting Advice"
   },
 
   {
     quote: "It is not how much we have, but how much we enjoy, that makes happiness.",
-    source: "Charles Spurgeon"
+    source: "Charles Spurgeon",
+    tags: "Happiness"
   },
 
   {
     quote: "A lie can travel half way around the world while the truth is putting on its shoes.",
-    source: "Charles Spurgeon"
+    source: "Charles Spurgeon",
+    tags: "Religion"
   }
 ];
 
@@ -66,7 +72,7 @@ function printQuote() {
     message += '<span class ="year">' + randomQuote.year + '</span>';
   }
   // document.write(message);
-
+  message += ', <span class="tags">' + randomQuote.tags + '</span>';
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 }
