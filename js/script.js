@@ -73,8 +73,11 @@ function printQuote() {
   }
   // document.write(message);
   message += ', <span class="tags">' + randomQuote.tags + '</span>';
+
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
+
+  // var refreshQuote = setInterval(document.getElementById('quote-box').innerHTML = message, 100);
 }
 
 
