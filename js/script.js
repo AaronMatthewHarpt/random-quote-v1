@@ -40,7 +40,8 @@ var Quotes = [
 
 
 
-/* function which creates a random number between 0 and the length of the Quotes array
+/*
+   function which creates a random number between 0 and the length of the Quotes array
    get a random quote and then returns the randomly selected quote
 */
 
@@ -56,6 +57,24 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
     return Quotes[randomNumber];
   }
 }
+
+/*
+   function that creates a random number between 0 and the length of the Quotes array
+   creates a random color, and then returns it
+*/
+
+function getRandomColor() {
+  var red = Math.floor(Math.random() * 255);
+  var green = Math.floor(Math.random() * 255);
+  var blue = Math.floor(Math.random() * 255);
+
+  var randomBackground = RGB(red, green, blue);
+
+  document.getElementById('quote-box').innerHTML = getRandomColor();
+}
+
+getRandomColor();
+
 
 // getRandomQuote();
 
