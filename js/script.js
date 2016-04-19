@@ -38,8 +38,6 @@ var Quotes = [
   }
 ];
 
-
-
 /*
    function which creates a random number between 0 and the length of the Quotes array
    get a random quote and then returns the randomly selected quote
@@ -55,38 +53,13 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
 }
 
 
-/*
-function that stores the used quotes,
-new quotes get added when they are used,
- and then when all quotes are used, emptys
-*/
-
-
- function showQuotes() {
-  var randomQuote = getRandomQuote();
-}
-
-var shownQuotes = [
-  showQuotes()
-];
-
-console.log(shownQuotes);
-
-/* checking if a quote has been shown */
-
-if (randomQuote = getRandomQuote() ===  shownQuotes) {
-    console.log(randomQuote);
-}
-
-
-
-/*
-   function that creates a random number between 0 and the length of the Quotes array
-   creates a random color, and then returns it
-*/
-
 
  var rgbColor;
+
+ /*
+    function that creates a random number between 0 and the length of the Quotes array
+    creates a random color, and then returns it
+ */
 
 function getRandomColor() {
   var red = Math.floor(Math.random() * 255);
@@ -121,7 +94,7 @@ function printQuote() {
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 
-    // random color
+  // random color
      var randomColor = getRandomColor();
     // prints final HTML to the page
      document.getElementsByTagName("body")[0].style.background=randomColor;
