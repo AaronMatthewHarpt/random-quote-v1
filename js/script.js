@@ -62,22 +62,21 @@ new quotes get added when they are used,
 */
 
 
-var shownQuotes = [
-  {
- quote: "Giving is true having.",
- source: "Charles Spurgeon",
- citation: "brainyquote.com",
- tags: "Giving, True"
+ function showQuotes() {
+  var randomQuote = getRandomQuote();
 }
+
+var shownQuotes = [
+  showQuotes()
 ];
 
+console.log(shownQuotes);
 
 /* checking if a quote has been shown */
 
 if (randomQuote = getRandomQuote() ===  shownQuotes) {
     console.log(randomQuote);
 }
-
 
 
 
@@ -127,13 +126,10 @@ function printQuote() {
     // prints final HTML to the page
      document.getElementsByTagName("body")[0].style.background=randomColor;
 
-
-
-
-// changes quote after 1 second
-  /* var showQuote = setInterval(printQuote(), 1000); */
 }
 
+// changes quote after 30 seconds
+   var showQuote = setInterval(printQuote, 30000);
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
