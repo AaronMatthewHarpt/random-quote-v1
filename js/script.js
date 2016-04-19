@@ -59,25 +59,25 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
    creates a random color, and then returns it
 */
 
+
+ var rgbColor;
+
 function getRandomColor() {
   var red = Math.floor(Math.random() * 255);
   var green = Math.floor(Math.random() * 255);
   var blue = Math.floor(Math.random() * 255);
+  return 'rgb(' + red + ',' + green + ',' + blue + ')';
 
-  var randomBackground = RGB(red, green, blue);
-
-  // document.getElementById('quote-box').innerHTML = randomBackground;
 }
-
-// getRandomColor();
-
 
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
  source, and citation (if necessary), and year (if necessary) to the web page
 */
 
 function printQuote() {
-  var randomQuote = getRandomQuote();
+// random quote
+ var randomQuote = getRandomQuote();
+
   var message = '<p class ="quote">' + randomQuote.quote + '</p>';
   message += '<p class ="source">' + randomQuote.source;
   if (! randomQuote.citation) {
@@ -90,10 +90,21 @@ function printQuote() {
   }
   message += ', <span class="tags">' + randomQuote.tags + '</span>';
 
+
+
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 
-  // var showQuote = setInterval(printQuote(), 1000);
+    // random color
+     var randomColor = getRandomColor();
+    // prints final HTML to the page
+     document.getElementsByTagName("body")[0].style.background=randomColor;
+
+
+
+
+// changes quote after 1 second
+  /* var showQuote = setInterval(printQuote(), 1000); */
 }
 
 
