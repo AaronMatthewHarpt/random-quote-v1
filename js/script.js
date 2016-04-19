@@ -53,9 +53,6 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
 }
 
 
-
- var rgbColor;
-
  /*
     function that creates a random number between 0 and the length of the Quotes array
     creates a random color, and then returns it
