@@ -47,10 +47,6 @@ var Quotes = [
 
 function getRandomQuote() {
 
-  // for (var i = 0; i < Quotes.length; i += 1) {
-  //   var randomQuote = (Quotes[randomNumber].quote);
-  //   document.write(randomQuote);
-  // }
 var randomNumber = Math.floor(Math.random() * Quotes.length);
 
   for (var i = 0; i < Quotes.length; i += 1) {
@@ -70,13 +66,11 @@ function getRandomColor() {
 
   var randomBackground = RGB(red, green, blue);
 
-  document.getElementById('quote-box').innerHTML = getRandomColor();
+  // document.getElementById('quote-box').innerHTML = randomBackground;
 }
 
-getRandomColor();
+// getRandomColor();
 
-
-// getRandomQuote();
 
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
  source, and citation (if necessary), and year (if necessary) to the web page
@@ -94,13 +88,12 @@ function printQuote() {
   } else {
     message += '<span class ="year">' + randomQuote.year + '</span>';
   }
-  // document.write(message);
   message += ', <span class="tags">' + randomQuote.tags + '</span>';
 
   // prints final HTML to the page
   document.getElementById('quote-box').innerHTML = message;
 
-  // var refreshQuote = setInterval(document.getElementById('quote-box').innerHTML = message, 100);
+  // var showQuote = setInterval(printQuote(), 1000);
 }
 
 
