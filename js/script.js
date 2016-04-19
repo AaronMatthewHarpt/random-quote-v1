@@ -67,7 +67,7 @@ function getRandomColor() {
 }
 
 /* calls "getRandomQuote" function, creates HTML template, and prints the final quote,
- source, and citation (if necessary), and year (if necessary) to the web page
+ source, and citation (if applicable), and year (if applicable) and tags (if applicable) to the web page
 */
 
 function printQuote() {
@@ -98,8 +98,8 @@ function printQuote() {
 
 }
 
-// changes quote after 30 seconds
-   var showQuote = setInterval(printQuote, 30000);
+// run random quote and random color after 30 seconds
+   setInterval(printQuote, 30000);
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
