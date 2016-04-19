@@ -54,6 +54,33 @@ var randomNumber = Math.floor(Math.random() * Quotes.length);
   }
 }
 
+
+/*
+function that stores the used quotes,
+new quotes get added when they are used,
+ and then when all quotes are used, emptys
+*/
+
+
+var shownQuotes = [
+  {
+ quote: "Giving is true having.",
+ source: "Charles Spurgeon",
+ citation: "brainyquote.com",
+ tags: "Giving, True"
+}
+];
+
+
+/* checking if a quote has been shown */
+
+if (randomQuote = getRandomQuote() ===  shownQuotes) {
+    console.log(randomQuote);
+}
+
+
+
+
 /*
    function that creates a random number between 0 and the length of the Quotes array
    creates a random color, and then returns it
