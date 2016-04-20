@@ -94,7 +94,7 @@ function printQuote() {
   // random color
      var randomColor = getRandomColor();
     // prints final HTML to the page
-     document.getElementsByTagName("body")[0].style.background=randomColor;
+     document.body.style.background=randomColor;
 
 }
 
