@@ -1,6 +1,6 @@
 // array containing quote objects
 
-var Quotes = [
+var quotes = [
 
   {
    quote: "Giving is true having.",
@@ -45,10 +45,10 @@ var Quotes = [
 
 function getRandomQuote() {
 
-var randomNumber = Math.floor(Math.random() * Quotes.length);
+var randomNumber = Math.floor(Math.random() * quotes.length);
 
-  for (var i = 0; i < Quotes.length; i += 1) {
-    return Quotes[randomNumber];
+  for (var i = 0; i < quotes.length; i += 1) {
+    return quotes[randomNumber];
   }
 }
 
