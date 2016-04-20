@@ -84,7 +84,7 @@ function printQuote() {
   } else {
     message += '<span class ="year">' + randomQuote.year + '</span>';
   }
-  message += ', <span class="tags">' + randomQuote.tags + '</span>';
+  message += ', <span class="tags">' + randomQuote.tags + '</span></p>';
 
 
 
